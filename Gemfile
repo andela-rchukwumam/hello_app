@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'byebug',
   gem 'sqlite3',
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
@@ -49,7 +49,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.0.0.beta3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
