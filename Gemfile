@@ -36,7 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'sqlite3',     '1.3.10'
+  gem 'sqlite3',
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
 end
