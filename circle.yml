@@ -1,0 +1,8 @@
+deployment:
+  develop:
+    branch: master
+    heroku:
+      appname: mighty-reef-4676
+machine:
+  ruby: 2.1.0
+  version: 
